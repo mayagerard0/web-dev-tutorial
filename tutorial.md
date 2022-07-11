@@ -65,7 +65,7 @@ Para establecer una sesión usando el protocolo TCP, se requiere una dirección 
 entero de 16 [Bits](##Glosario) (entre 0 y 65535). Existen números de puertos asociados comunmente a ciertos servicios.
 
 | Puerto | Servicio    |
-|--------+-------------|
+|--------|-------------|
 |     22 | SSH         |
 |     23 | TELNET      |
 |     25 | SMTP (Mail) |
@@ -127,7 +127,7 @@ El servidor HTTP está en completa libertad de decidir cómo interpretar una pet
 HTTP tiene [varios](https://http.cat) códigos posibles de status para una respuesta: 
 
 | Rango     | Significado        |
-|-----------+--------------------|
+|-----------|--------------------|
 | 100 - 199 | Información        |
 | 200 - 299 | Éxito              |
 | 300 - 399 | Redirección        |
