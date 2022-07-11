@@ -58,11 +58,11 @@ El mismo protocolo de internet se encuentra por encima de protocolos de capa 2 (
 
 ### TCP y HTTP 
 
-TCP (`Transport Control Protocol`), a diferencia de ip, es un protocolo de sesión. Esto quiere decir que antes de enviar cualquier mensage, es necesario establecer una sesión entre los interlocutores. La sesión se establece mediante un proceso conocido como `tcp handshake` (Usualmente el sistema operativo se encarga de efectuar este proceso)
+TCP (`Transport Control Protocol`), a diferencia de ip, es un protocolo de sesión. Esto quiere decir que antes de enviar cualquier mensage, es necesario establecer una sesión entre los interlocutores. La sesión se establece mediante un proceso conocido como `tcp handshake` (Usualmente el sistema operativo se encarga de efectuar este proceso).
+
 ![Tcp handshake](https://upload.wikimedia.org/wikipedia/commons/9/98/Tcp-handshake.svg)
 
-Para establecer una sesión usando el protocolo TCP, se requiere una dirección ip pública (pues TCP opera sobre IP) y un número de puerto. Este número de puerto es un 
-entero de 16 [Bits](##Glosario) (entre 0 y 65535). Existen números de puertos asociados comunmente a ciertos servicios.
+Para establecer una sesión usando el protocolo TCP, se requiere una dirección ip pública (pues TCP opera sobre IP) y un número de puerto. Este número de puerto es un entero de 16 [Bits](##Glosario) (entre 0 y 65535). Existen números de puertos asociados comunmente a ciertos servicios.
 
 | Puerto | Servicio    |
 |--------|-------------|
