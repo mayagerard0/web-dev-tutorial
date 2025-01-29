@@ -6,7 +6,7 @@ El internet es una red de computadoras conectadas entre sí que hablan un protoc
 
 El protocolo común que hablan las computadoras conectadas al internet se conoce como IP (`internet protocol`, no confundir con las direcciones ip).
 
-Cada computadora conectada al internet tiene asociada una dirección ip pública. Hay dos tipos de direcciones de ip, conocidas como ipv4 e ipv6. La mayoría de las computadoras actuales utilizan direcciones ipv4, aunque direcciones ipv6 son cada vez más comunes. Una dirección de tipo ipv4 es secuencia de cuatro [bytes](##Glosario:Byte), típicamente representada como cuatro números entre 0 y 255 separados por puntos. (Ej: ``` 142.250.65.142``` es la dirección ip de Google).
+Cada computadora conectada al internet tiene asociada una dirección ip pública. Hay dos tipos de direcciones de ip, conocidas como ipv4 e ipv6. La mayoría de las computadoras actuales utilizan direcciones ipv4, aunque direcciones ipv6 son cada vez más comunes. Una dirección de tipo ipv4 es secuencia de cuatro [bytes](##Glosario:Byte), típicamente representada como cuatro números entre 0 y 255 separados por puntos. (Ej: `142.250.65.142` es la dirección ip de Google).
 
 El objetivo de estas direcciones es identificar de forma única las computadoras participantes en la red y permitirles intercambiar mensajes utilizando el protocolo de internet.
 
@@ -142,7 +142,7 @@ UDP (`User Datagram Protocol`) es el otro Protocolo de Transporte sobre IP más 
 
 Para efectuar una petición IP (y consecuentemente UDP, TCP ó HTTP) se requiere conocer la dirección ip del destino, pero en ocasiones el cliente sólo conoce el nombre del dominio (por ejemplo `google.com` ó `wikipedia.org`) del servidor. Se requiere entonces de un servicio adicional para asociar dominios a direcciones ip. DNS (`domain name service`) es un protocolo (que opera sobre UDP) diseñado para esta función.
 
-El navegador antes de comunicarse con `google.com` emite una petición DNS para averiguar su dirección ip. Cuando se compra un dominio, lo que se compra es el registro de una asociación dominio - dirección ip en el sistema DNS.
+El navegador antes de comunicarse con `google.com` emite una petición DNS para averiguar su dirección ip. Cuando se compra un dominio, lo que se compra realmente es el registro de una asociación dominio - dirección ip en el sistema DNS.
 
 ### Otros Recursos 
 * [Modelo OSI de capas del internet](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
@@ -181,7 +181,7 @@ Ejemplo de una página completa pequeña:
 ### CSS
 CSS (`Cascading Style Sheets`) es un lenguaje que acompaña al HTML y modifica el estilo visual del documento. Se utiliza para decorar y cambiar la organización visual de los elementos de HTML.
 
-El navegador interpreta tags de HTML `<link rel="stylesheet" href= URL >` como una instrucción para realizar una petición HTTP `GET` al URL, que debe responder con un documento de CSS paraa aplicar al documento.
+El navegador interpreta tags de HTML `<link rel="stylesheet" href= URL >` como una instrucción para realizar una petición HTTP `GET` al URL, que debe responder con un documento de CSS para aplicar al documento.
 
 Las hojas de CSS están compuestas por 'reglas' de formato. Una regla especifica un objectivo a quien aplica la regla mediante un `selector` y una serie de directivas para darle formato. Por ejemplo:
 
